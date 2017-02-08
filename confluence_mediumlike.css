@@ -1,0 +1,565 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+html, body {
+    background-color: #fefefe !important;
+    background-clip: border-box !important;
+    background-origin: padding-box !important;
+    background-attachment: scroll !important;
+    background-repeat: repeat !important;
+    background-size: auto !important;
+    background-position: left top !important;
+    font-family: 'Noto Sans Japanese', sans-serif !important;
+}
+
+#logo {
+    background-color: #ccc;
+    display: none;
+}
+
+#full-height-container {
+    background-color: #fefefe;
+}
+
+
+/* --------------- edit ----------------------------*/
+
+#header-precursor {
+    display: none !important;
+}
+
+#content.edit {
+    display: block !important;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 1000px !important;
+}
+
+
+/* --------------- Header ----------------------------*/
+
+#header, #header .aui-header {
+    background-color: #fefefe;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 1000px !important;
+}
+
+.aui-header {
+    padding-left: 1em;
+}
+
+.aui-header .aui-dropdown2-trigger, #header .aui-header .aui-nav-link, #header .aui-header .aui-nav-imagelink, #header .aui-header a {
+    color: #c0c0c0 !important;
+}
+
+.aui-header-primary .aui-nav li:hover, .aui-header-primary .aui-nav li a:hover {
+    background-color: #fefefe !important;
+}
+
+#quick-create-page-button, #create-page-button {
+    background-color: #fefefe !important;
+}
+
+#header .aui-header .aui-icon {
+    color: #ccc !important;
+}
+
+#header .aui-avatar-inner img {
+    border-radius: 100px !important;
+}
+
+.aui-header .aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless):after {
+    border-top-color: #ccc;
+}
+
+.aui-header .aui-dropdown2-trigger.active:not(.aui-dropdown2-trigger-arrowless):after, .aui-header .aui-dropdown2-trigger:focus:not(.aui-dropdown2-trigger-arrowless):after, .aui-header .aui-dropdown2-trigger:active:not(.aui-dropdown2-trigger-arrowless):after, .aui-header .aui-dropdown2-trigger:hover:not(.aui-dropdown2-trigger-arrowless):after {
+    border-top-color: #ccc;
+}
+
+
+/* --------------- main text area --------------------- */
+
+#main {
+    left: 0;
+    right: 0;
+    max-width: 750px !important;
+    margin: 0 auto !important;
+    padding: 0 14px !important;
+    z-index: 10 !important;
+    margin-top: 100px !important;
+}
+
+.userLogo {
+    border-radius: 100px !important;
+    border-width: 3px !important;
+    border: solid #fefefe;
+}
+
+.aui-page-panel {
+    background-color: #fefefe !important;
+    border: none !important;
+}
+
+#main-content .confluence-embedded-file-wrapper {
+    width: 100%;
+}
+
+#main-content img {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+/* font for text */
+
+body, p, table, tr, td, .bodytext, .stepfield, .wiki-content p, .panelContent {
+    color: #444 !important
+}
+
+
+/* font for headers */
+
+h1, h2, h3, h4, .wiki-content h1, .wiki-content h2, .wiki-content h3, .wiki-content h4, .pagetitle, .steptitle, .substeptitle, .formtitle, table.confluenceTable td.confluenceTd.highlight, table.confluenceTable td.confluenceTd.highlight>p, table.confluenceTable th.confluenceTh, table.confluenceTable th.confluenceTh>p, .wiki-content .tablesorter-header-inner, table.admin th, .form-element-large, .form-element-small, #toolbar #format-dropdown .format-h1 a, #toolbar #format-dropdown .format-h2 a, #toolbar #format-dropdown .format-h3 a, #toolbar #format-dropdown .format-h4 a {
+    color: #555 !important;
+}
+
+
+/* font for title */
+
+#title-text a {
+    color: #555 !important;
+}
+
+
+/* size */
+
+h1 {
+    font-size: 3em !important;
+    font-weight: bold !important;
+    margin-top: 2em !important;
+}
+
+h2 {
+    font-size: 2em !important;
+    margin-top: 1em !important;
+    border-bottom: 2px solid #ccc !important;
+}
+
+h3, h4 {
+    font-size: 1.5em !important;
+    margin-top: 1em !important;
+    border-bottom: 1px solid #ccc !important;
+}
+
+p {
+    font-weight: 400 !important;
+    font-style: normal !important;
+    font-size: 21px !important;
+    line-height: 1.58 !important;
+    letter-spacing: -.003em !important;
+}
+
+.innerCell>div>h1, .innerCell>div>h2, .innerCell>div>h3, .innerCell>div>h4, .innerCell>h1, .innerCell>h2, .innerCell>h3, .innerCell>h4, h2.dialog-title {
+    margin-top: 0 !important;
+}
+
+
+/* one line borders */
+
+ol.comment-threads.top-level, #comments-section .comment, #comments-section .comment {
+    border-top-color: #333;
+}
+
+ol.comment-threads.top-level {
+    border-bottom-color: #333;
+}
+
+
+/* Blocks: aka code, etc */
+
+#content .code {
+    border-style: solid;
+}
+
+.panel, #content .panel {
+    border-color: #333;
+}
+
+.panel .panelHeader, .panel .panelHeader.pdl>b {
+    color: #e0e0e0 !important
+}
+
+.panel .panelHeader.pdl {
+    background: #1b1b1b !important;
+    padding: 10px 15px;
+}
+
+.panel .panelHeader.pdl {
+    border-bottom-color: #333;
+}
+
+.confluence-information-macro-tip {
+    border: none !important;
+}
+
+.confluence-information-macro-information {
+    border: none !important;
+    background-color: #ddeeee !important;
+}
+
+
+/* -------------------- toc -------------------- */
+
+.toc-macro {
+    margin: 2em 0;
+    width: 300px !important;
+    padding: 1em 3em 1em 0;
+    background-color: #f6f6f6;
+    border-radius: 3px;
+    border: 1px solid #dedede;
+}
+
+
+/* -------------------- navigation -------------------- */
+
+#main-header {
+    width: 750px !important;
+    top: 40px !important;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 10px !important;
+}
+
+#navigation {
+    position: fixed;
+    margin-left: 750px;
+    top: 45%;
+    width: 150px!important;
+}
+
+#navigation .aui-icon {
+    margin-right: 2000px;
+}
+
+#navigation .aui-button:hover .aui-icon {
+    margin-right: 0;
+}
+
+#navigation li {
+    border-left: 2px solid #666;
+    background-color: #fefefe;
+}
+
+#addSpaceLink {
+    border: none !important;
+    background-color: #fefefe;
+    z-index: -1 !important;
+}
+
+
+/* -------------------- Sidebar -------------------- */
+
+.acs-side-bar, .space-tools-section, .expand-collapse-trigger {
+    background-color: #fefefe !important;
+    border: none;
+}
+
+.acs-side-bar-space-info {
+    font-size: 2.5em !important;
+}
+
+.acs-side-bar-space-info .name a {
+    color: #666 !important;
+}
+
+.avatar-img-wrapper {
+    border-color: #fefefe !important;
+}
+
+.ia-splitter-handle {
+    display: none !important;
+}
+
+.expand-collapse-trigger {
+    display: none !important;
+}
+
+.ia-fixed-sidebar {
+    position: fixed !important;
+    top: 50px !important;
+    width: 100% !important;
+}
+
+.acs-side-bar-space-info {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 750px !important;
+    margin-top: 50px !important;
+    padding-top: 25px !important;
+    padding-bottom: 10px !important;
+    background-color: #fefefe !important;
+    z-index: 1;
+}
+
+.favourite-space-icon .aui-icon-small:before {
+    margin-top: 0 !important;
+}
+
+.acs-side-bar {
+    position: absolute !important;
+    overflow-x: hidden !important;
+    width: 100% !important;
+    z-index: 0 !important;
+    margin-left: 5px;
+}
+
+.acs-side-bar-content {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 400px !important;
+    margin: auto !important;
+    opacity: 0.8;
+}
+
+.acs-side-bar-space-info .avatar {
+    vertical-align: middle;
+}
+
+.ia-secondary-header-title {
+    display: none !important;
+}
+
+#space-tools-menu-trigger {
+    opacity: 0.5;
+}
+
+#space-tools-menu-trigger .aui-button-label {
+    display: none !important;
+}
+
+.acs-side-bar-flyout li.acs-tree-item a:hover, .acs-side-bar-flyout li.acs-tree-item a:focus, li.acs-nav-item .acs-nav-item-link:hover, li.acs-nav-item .acs-nav-item-link:focus {
+    background: none !important;
+    opacity: 0.8;
+}
+
+.acs-nav {
+    max-width: 300px !important;
+}
+
+
+/* -------------------- recently updated --------------------- */
+
+
+/* timeline */
+
+.recently-updated-social .update-groupings {
+    position: relative;
+}
+
+.recently-updated-social .update-groupings::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    content: "";
+    z-index: -1;
+    width: 4px;
+    left: 26px;
+    background-color: #efefef;
+    height: 100% !important;
+}
+
+.recently-updated-social .grouping {
+    margin-top: 0 !important;
+}
+
+.recently-updated-social .grouping .update-items {
+    padding-top: 20px;
+    padding-left: 32px;
+    margin-top: 0;
+    margin-left: 25px;
+    border-bottom: 1px solid #efefef;
+}
+
+.recently-updated-social li.update-item {
+    line-height: 1.3em;
+    margin-bottom: 1em;
+}
+
+.recently-updated-social .update-item-profile {
+    margin-top: 5px
+}
+
+
+/* -------------------- blog post updated --------------------- */
+
+.blog-post-listing {
+    padding-top: 0;
+}
+
+
+/* timeline */
+
+.blog-post-listing {
+    position: relative;
+    margin-top: 5px;
+    border-top: none !important;
+    border-bottom: 1px solid #efefef;
+}
+
+.blog-post-listing::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    content: "";
+    z-index: -1;
+    width: 4px;
+    left: 25px;
+    background-color: #efefef;
+    height: 100% !important;
+}
+
+.blog-post-listing .logo-heading-block {
+    padding-top: 10px;
+}
+
+.blog-post-listing .logoBlock {
+    top: 5px !important;
+}
+
+
+/* -------------------- Action menu --------------------- */
+
+#action-menu {
+    margin-top: -370px;
+    margin-left: -50px;
+}
+
+
+/* -------------------- Footer --------------------- */
+
+#footer {
+    border: none !important;
+    max-width: 880px !important;
+    display: none;
+}
+
+
+/* --------------- Dashboard ----------------------------*/
+
+.welcome-message-wrapper, .RightSidebar_dashboardButtons_lZ0, .ReactSidebar_resizeHandle_2vC {
+    display: none !important;
+}
+
+h1.DashboardTab_listTitle_1Au {
+    margin-top: 0 !important;
+}
+
+#confluence-ui {
+    position: absolute !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: auto !important;
+    max-width: 800px !important;
+}
+
+.stream-item img, .dashboard-navigation .userLogoLink img {
+    border-radius: 100px !important;
+    border-width: 3px !important;
+    border: solid #fefefe;
+    position: absolute;
+}
+
+.ReactSidebar_dock_lXZ {
+    background-color: #fefefe !important;
+    border: none !important;
+    opacity: 0.8 !important;
+    width: 200px !important;
+}
+
+.aui-page-panel {
+    padding-left: 200px !important;
+}
+
+.aui-sidebar-wrapper, .ReactSidebar_footer_Rz_ {
+    background-color: #fefefe !important;
+    border: none !important;
+}
+
+#sidebar-discover {
+    margin-top: 10px;
+}
+
+#sidebar-discover .aui-nav-heading {
+    display: none;
+}
+
+.aui-page-panel .aui-page-panel-sidebar {
+    display: none;
+}
+
+#space-search-result {
+    max-width: 530px !important;
+}
+
+
+/* timeline */
+
+.dashboard-navigation .list-container {
+    position: relative;
+    z-index: 1 !important;
+}
+
+.dashboard-navigation p {
+    font-size: 16px !important;
+}
+
+.dashboard-navigation .list-container::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    content: "";
+    z-index: -1;
+    width: 4px;
+    left: 35px;
+    background-color: #efefef;
+    height: 100% !important;
+}
+
+.dashboard-navigation .list-container-popular-stream .stream-item, .dashboard-navigation .grouping {
+    margin-top: 0 !important;
+    border: none !important;
+}
+
+.dashboard-navigation .grouping .update-items {
+    padding-top: 5px;
+    padding-left: 32px;
+    margin-top: 0;
+    margin-left: 28px;
+    padding-bottom: 5px;
+    display: block;
+    border-bottom: 1px solid #efefef !important;
+}
+
+.dashboard-navigation .stream-item .PopularContentList_listContainerStyle_2l8 {
+    padding-top: 5px;
+    margin-top: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #efefef !important;
+}
+
+.PanelWithStickyHeader_panelWithStickyHeader_1Ar header {
+    border: none !important;
+    padding-bottom: 5px !important;
+}
