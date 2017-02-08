@@ -4,6 +4,8 @@
 
 Stylesheet which change confluence to content first design like medium or github.
 
+You can apply this css with specific browser extension which inserts custom css. (I use "Stylish" extension on google chrome.)
+
 
 ## Article page
 
